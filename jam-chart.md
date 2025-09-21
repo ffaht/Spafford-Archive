@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Jam Chart
+permalink: /jam-chart/
 ---
 
 <div id="jam-chart">
