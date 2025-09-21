@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+            <p>{{ site.description }}</p>
+            <p class="site-disclaimer">Personal database. Many entries are (and may stay) incomplete.</p>
+        </div>
+    </header>
+    
+    <nav class="nav-tabs container">
+        <a href="{{ "/" | relative_url }}" class="nav-tab">Recent Shows</a>
+        <a href="{{ "/jam-chart/" | relative_url }}" class="nav-tab">Jam Chart</a>
+    </nav>
+    
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script>
+        // Function to initialize tooltips and jam links
+        function initializeJamTooltips() {
+            const tooltip = document.getElementById('tooltip');
+            const jamElements = document.querySelectorAll('.jam-tooltip:not([data-initialized])');
+            
+            jamElements.forEach(element => {
+                // Mark as initialized to prevent duplicate listeners
+                element.setAttribute('data-initialized', 'true');
+                
+                element.addEventListener('mouseenter', function(e) {
+                    const tooltipText = e.target.getAttribute('data-tooltip');
+                    if (tooltipText) {
+                        tooltip.innerHTML = tooltipText;
+                        tooltip.style.display = 'block';
+                        tooltip.style.opacity = '1';
+                    }
+                });
+                
+                element.addEventListener('mousemove', function(e) {
+                    if (tooltip.style.display === 'block') {
+                        tooltip.style.left = (e.pageX + 10) + 'px';
+                        tooltip.style.top = (e.pageY - 10) + 'px';
+                    }
+                });
+                
+                element.addEventListener('mouseleave', function() {
+                    tooltip.style.display = 'none';
+                    tooltip.style.opacity = '0';
+                });
+            });
+
+            // Jam link click functionality
+            const jamLinks = document.querySelectorAll('.jam-link:not([data-click-initialized])');
+            jamLinks.forEach(element => {
+                // Mark as initialized to prevent duplicate listeners
+                element.setAttribute('data-click-initialized', 'true');
+                
+                element.addEventListener('click', function(e) {
+                    const url = e.target.getAttribute('data-url');
+                    if (url) {
+                        window.location.href = url;
+                    }
+                });
+                
+                element.style.cursor = 'pointer';
+            });
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeJamTooltips();
+        });
+
+        // Make the function globally available for use when loading more content
+        window.initializeJamTooltips = initializeJamTooltips;
+    </script>
+</body>
+</html>

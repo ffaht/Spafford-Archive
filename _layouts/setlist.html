@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<article class="setlist">
+    <header class="setlist-header">
+        <h1>{{ page.title }}</h1>
+        <div class="setlist-meta">
+            <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
+            {% if page.venue %} • <span class="venue">{{ page.venue }}</span>{% endif %}
+            {% if page.city %} • <span class="location">{{ page.city }}{% if page.state %}, {{ page.state }}{% endif %}</span>{% endif %}
+        </div>
+    </header>
+    
+    <div class="setlist-content">
+        {{ content }}
+    </div>
+</article>
+
+<style>
+.setlist-header {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.setlist-meta {
+    color: #666;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.setlist-content {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.setlist-content h2, .setlist-content h3 {
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.setlist-content ul {
+    padding-left: 0;
+}
+
+.setlist-content li {
+    list-style: none;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.setlist-content li:before {
+    content: "♪";
+    position: absolute;
+    left: 0;
+    color: #666;
+}
+</style>
