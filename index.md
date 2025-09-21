@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const showsToLoad = Math.min(10, totalShows - currentlyLoaded);
             
             // Fetch the next set of shows
-            fetch('/assets/data/shows.json')
+                fetch('{ "/assets/data/shows.json" | relative_url }')
                 .then(response => response.json())
                 .then(allShows => {
                     const showContainer = document.getElementById('show-container');
