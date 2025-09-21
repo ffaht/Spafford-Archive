@@ -1,11 +1,9 @@
-title: 'Spafford Show Archive'
-description: "😀 😂 😊 😎 😜"
-baseurl: '/Spafford-Archive'  # Change this to match whatever you name your repo
-url: 'https://ffaht.github.io'
-markdown: kramdown
-plugins:
-  - jekyll-feed
+baseurl: ''
 collections:
   setlists:
     output: true
-    permalink: '/shows/:name/'
+    permalink: /shows/:name/
+description: "\U0001F600 \U0001F602 \U0001F60A \U0001F60E \U0001F61C"
+markdown: kramdown
+title: Spafford Show Archive
+url: https://your-username.github.io
