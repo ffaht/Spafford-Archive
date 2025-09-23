@@ -265,7 +265,7 @@ body {
 }
 
 .jam-link::after {
-    content: '🎵';
+    content: 'ðŸŽµ';
     position: absolute;
     top: -0.2em;
     right: -0.8em;

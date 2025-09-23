@@ -17,7 +17,7 @@ title: Jam Chart
             <thead>
                 <tr>
                     <th class="date-col sortable" data-column="date">
-                        Date <span class="sort-indicator">▼</span>
+                        Date <span class="sort-indicator">â–¼</span>
                     </th>
                     <th class="song-col sortable" data-column="song">
                         Song <span class="sort-indicator"></span>
@@ -120,7 +120,7 @@ function updateSortIndicators() {
     });
     const currentHeader = document.querySelector(`[data-column="${currentSort.column}"] .sort-indicator`);
     if (currentHeader) {
-        currentHeader.textContent = currentSort.direction === 'asc' ? '▲' : '▼';
+        currentHeader.textContent = currentSort.direction === 'asc' ? 'â–²' : 'â–¼';
     }
 }
 

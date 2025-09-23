@@ -9,7 +9,7 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-30/">Adirondack Independence Music Festival - Lake George, NY</a></h2>
             <div class="show-meta">
-                August 30, 2025 • 2025 Summer • Show #35
+                August 30, 2025 â€¢ 2025 Summer â€¢ Show #35
             </div>
             
         </header>
@@ -31,9 +31,9 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-29/">Water Street Music Hall - Rochester, NY</a></h2>
             <div class="show-meta">
-                August 29, 2025 • 2025 Summer • Show #34
+                August 29, 2025 â€¢ 2025 Summer â€¢ Show #34
             </div>
-            <div class="show-rating">★ 8.5</div>
+            <div class="show-rating">â˜… 8.5</div>
         </header>
         
         <div class="setlist-preview">
@@ -61,9 +61,9 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-28/">XL Live - Harrisburg, PA</a></h2>
             <div class="show-meta">
-                August 28, 2025 • 2025 Summer • Show #33
+                August 28, 2025 â€¢ 2025 Summer â€¢ Show #33
             </div>
-            <div class="show-rating">★ 7.4</div>
+            <div class="show-rating">â˜… 7.4</div>
         </header>
         
         <div class="setlist-preview">
@@ -87,9 +87,9 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-27/">Elkton Music Hall - Elkton, MD</a></h2>
             <div class="show-meta">
-                August 27, 2025 • 2025 Summer • Show #32
+                August 27, 2025 â€¢ 2025 Summer â€¢ Show #32
             </div>
-            <div class="show-rating">★ 8.0</div>
+            <div class="show-rating">â˜… 8.0</div>
         </header>
         
         <div class="setlist-preview">
@@ -116,7 +116,7 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-26/">The Annex - Norfolk, VA</a></h2>
             <div class="show-meta">
-                August 26, 2025 • 2025 Summer • Show #31
+                August 26, 2025 â€¢ 2025 Summer â€¢ Show #31
             </div>
             
         </header>
@@ -144,9 +144,9 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-23/">Homie Collective Campout - Charlton, MA</a></h2>
             <div class="show-meta">
-                August 23, 2025 • 2025 Summer • Show #30
+                August 23, 2025 â€¢ 2025 Summer â€¢ Show #30
             </div>
-            <div class="show-rating">★ 7.6</div>
+            <div class="show-rating">â˜… 7.6</div>
         </header>
         
         <div class="setlist-preview">
@@ -167,9 +167,9 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-22/">Essex Experience - Essex Junction, VT</a></h2>
             <div class="show-meta">
-                August 22, 2025 • 2025 Summer • Show #29
+                August 22, 2025 â€¢ 2025 Summer â€¢ Show #29
             </div>
-            <div class="show-rating">★ 8.7</div>
+            <div class="show-rating">â˜… 8.7</div>
         </header>
         
         <div class="setlist-preview">
@@ -200,9 +200,9 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-21/">Stone Mountain Arts Center - Brownfield, ME</a></h2>
             <div class="show-meta">
-                August 21, 2025 • 2025 Summer • Show #28
+                August 21, 2025 â€¢ 2025 Summer â€¢ Show #28
             </div>
-            <div class="show-rating">★ 7.8</div>
+            <div class="show-rating">â˜… 7.8</div>
         </header>
         
         <div class="setlist-preview">
@@ -229,9 +229,9 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-09/">Brown's Island - Richmond, VA</a></h2>
             <div class="show-meta">
-                August 09, 2025 • 2025 Summer • Show #27
+                August 09, 2025 â€¢ 2025 Summer â€¢ Show #27
             </div>
-            <div class="show-rating">★ 8.3</div>
+            <div class="show-rating">â˜… 8.3</div>
         </header>
         
         <div class="setlist-preview">
@@ -251,9 +251,9 @@ title: Recent Shows
         <header class="show-header">
             <h2><a href="/shows/2025-08-08/">New River Gorge - New River Gorge, WV</a></h2>
             <div class="show-meta">
-                August 08, 2025 • 2025 Summer • Show #26
+                August 08, 2025 â€¢ 2025 Summer â€¢ Show #26
             </div>
-            <div class="show-rating">★ 7.8</div>
+            <div class="show-rating">â˜… 7.8</div>
         </header>
         
         <div class="setlist-preview">
@@ -302,13 +302,13 @@ document.addEventListener('DOMContentLoaded', function() {
                             const showElement = document.createElement('article');
                             showElement.className = 'show-card';
                             
-                            const ratingHtml = show.rating ? `<div class="show-rating">★ ${show.rating}</div>` : '';
+                            const ratingHtml = show.rating ? `<div class="show-rating">â˜… ${show.rating}</div>` : '';
                             
                             showElement.innerHTML = `
                                 <header class="show-header">
                                     <h2><a href="${show.url}">${show.venue} - ${show.city}${show.state ? ', ' + show.state : ''}</a></h2>
                                     <div class="show-meta">
-                                        ${show.formatted_date}${show.tour ? ' • ' + show.tour : ''}${show.show_number ? ' • Show #' + show.show_number : ''}
+                                        ${show.formatted_date}${show.tour ? ' â€¢ ' + show.tour : ''}${show.show_number ? ' â€¢ Show #' + show.show_number : ''}
                                     </div>
                                     ${ratingHtml}
                                 </header>

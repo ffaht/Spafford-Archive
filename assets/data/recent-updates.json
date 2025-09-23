@@ -1,6 +1,90 @@
 [
   {
     "type": "setlist",
+    "filename": "2025-06-22",
+    "title": "Nashua Center for the Arts - Nashua, NH",
+    "date": "2025-06-22",
+    "formatted_date": "June 22, 2025",
+    "last_modified": "2025-09-23T19:38:41.705600",
+    "last_updated_formatted": "September 23, 2025 at 07:38 PM",
+    "url": "/shows/2025-06-22/",
+    "preview": "<h3 class=\"setlist-header\"><strong>Set 1:</strong>  Funkadelic (13), <span class=\"jam-entry jam-tooltip jam-link\" data-tooltip=\"<strong>Timing:</stron...",
+    "preview_clean": "Set 1:  Funkadelic (13), Timing:</stron..."
+  },
+  {
+    "type": "jam",
+    "filename": "2025-06-22_Walls",
+    "title": "Walls - Nashua Center for the Arts",
+    "date": "2025-06-22",
+    "formatted_date": "June 22, 2025",
+    "last_modified": "2025-09-23T19:35:49.758516",
+    "last_updated_formatted": "September 23, 2025 at 07:35 PM",
+    "url": "/jam-chart/?filter=Walls",
+    "preview": "A revolving carousel of a groove that builds sharply and reflects brightly. \n",
+    "preview_clean": "A revolving carousel of a groove that builds sharply and reflects brightly. \n"
+  },
+  {
+    "type": "jam",
+    "filename": "2025-06-22_Broken-Wing",
+    "title": "Broken Wing - Nashua Center for the Arts",
+    "date": "2025-06-22",
+    "formatted_date": "June 22, 2025",
+    "last_modified": "2025-09-23T19:33:56.612989",
+    "last_updated_formatted": "September 23, 2025 at 07:33 PM",
+    "url": "/jam-chart/?filter=Broken Wing",
+    "preview": "Straightforward first half that flies by, then Funkadelic-ish jamming that experiments with several ...",
+    "preview_clean": "Straightforward first half that flies by, then Funkadelic-ish jamming that experiments with several ..."
+  },
+  {
+    "type": "jam",
+    "filename": "2025-06-22_Reds-Jam",
+    "title": "Red's Jam - Nashua Center for the Arts",
+    "date": "2025-06-22",
+    "formatted_date": "June 22, 2025",
+    "last_modified": "2025-09-23T19:24:41.966314",
+    "last_updated_formatted": "September 23, 2025 at 07:24 PM",
+    "url": "/jam-chart/?filter=Red's Jam",
+    "preview": "Hustles in double time before hitting a section straight from Windmill, then quickly moves through a...",
+    "preview_clean": "Hustles in double time before hitting a section straight from Windmill, then quickly moves through a..."
+  },
+  {
+    "type": "jam",
+    "filename": "2025-06-22_Night-After-Night",
+    "title": "Night After Night - Nashua Center for the Arts",
+    "date": "2025-06-22",
+    "formatted_date": "June 22, 2025",
+    "last_modified": "2025-09-23T19:22:53.077235",
+    "last_updated_formatted": "September 23, 2025 at 07:22 PM",
+    "url": "/jam-chart/?filter=Night After Night",
+    "preview": "Mostly the usual structure, but much spacier.\n",
+    "preview_clean": "Mostly the usual structure, but much spacier.\n"
+  },
+  {
+    "type": "jam",
+    "filename": "2025-06-22_Bee-Jam",
+    "title": "Bee Jam - Nashua Center for the Arts",
+    "date": "2025-06-22",
+    "formatted_date": "June 22, 2025",
+    "last_modified": "2025-09-23T19:22:12.395252",
+    "last_updated_formatted": "September 23, 2025 at 07:22 PM",
+    "url": "/jam-chart/?filter=Bee Jam",
+    "preview": "Dub-y and Funkadelic-y to start, slowing at a space terminal before swirling into a dancey strait wi...",
+    "preview_clean": "Dub-y and Funkadelic-y to start, slowing at a space terminal before swirling into a dancey strait wi..."
+  },
+  {
+    "type": "jam",
+    "filename": "2025-06-22_All-My-Friends",
+    "title": "All My Friends - Nashua Center for the Arts",
+    "date": "2025-06-22",
+    "formatted_date": "June 22, 2025",
+    "last_modified": "2025-09-23T19:20:54.288925",
+    "last_updated_formatted": "September 23, 2025 at 07:20 PM",
+    "url": "/jam-chart/?filter=All My Friends",
+    "preview": "A bit out of the box, with some slowdowns, and samples. \n",
+    "preview_clean": "A bit out of the box, with some slowdowns, and samples. \n"
+  },
+  {
+    "type": "setlist",
     "filename": "2025-06-12",
     "title": "Archer Music Hall - Allentown, PA",
     "date": "2025-06-12",
@@ -1894,17 +1978,5 @@
     "url": "/shows/2025-07-20 Spafford/",
     "preview": "<h3 class=\"setlist-header\"><strong>Set 1:</strong>  Crazy (5), Funkadelic (22), Tongue N' Groove (9) > Slip and Squander (11) > Down Under (12)</h3>\n<...",
     "preview_clean": "Set 1:  Crazy (5), Funkadelic (22), Tongue N' Groove (9) > Slip and Squander (11) > Down Under (12)\n<..."
-  },
-  {
-    "type": "setlist",
-    "filename": "2025-06-22 Spafford",
-    "title": "Nashua Center for the Arts - Nashua, NH",
-    "date": "2025-06-22",
-    "formatted_date": "June 22, 2025",
-    "last_modified": "2025-07-18T16:08:46.850724",
-    "last_updated_formatted": "July 18, 2025 at 04:08 PM",
-    "url": "/shows/2025-06-22 Spafford/",
-    "preview": "<h3 class=\"setlist-header\"><strong>Set 1:</strong>  Funkadelic (13), All My Friends (2) > Bee Jam (17) > Windmill (17), On Fire (9)</h3>\n<p class=\"chu...",
-    "preview_clean": "Set 1:  Funkadelic (13), All My Friends (2) > Bee Jam (17) > Windmill (17), On Fire (9)\n<p class=\"chu..."
   }
 ]

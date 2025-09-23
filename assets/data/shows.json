@@ -286,7 +286,7 @@
     "last_updated_formatted": "September 12, 2025 at 08:36 PM"
   },
   {
-    "url": "/shows/2025-06-22 Spafford/",
+    "url": "/shows/2025-06-22/",
     "venue": "Nashua Center for the Arts",
     "city": "Nashua",
     "state": "NH",
@@ -294,9 +294,9 @@
     "formatted_date": "June 22, 2025",
     "tour": "2025 Summer",
     "show_number": "7",
-    "rating": null,
-    "setlist_preview": "<h3 class=\"setlist-header\"><strong>Set 1:</strong>  Funkadelic (13), All My Friends (2) > Bee Jam (17) > Windmill (17), On Fire (9)</h3>\n<p class=\"chucks-dream\"><strong>Chuck's Dream:</strong> <em> Pretty</em></p>\n<h3 class=\"setlist-header\"><strong>Set 2:</strong>  Night After Night (10) > Red's Jam (21) > Broken Wing (23) > Walls (14)</h3>\n<hr class=\"section-divider\">\n<p class=\"show-notes\"><em>This was the seventh show of the 2025 Summer Tour. <strong>Funkadelic</strong> contained a Where It's At (Beck) tease from Cory. <strong>Bee Jam</strong> contained <strong>Funkadelic</strong> and xxxx 10:00 teases from Brian, Rastaman Chant and xxx teases from Shon, and xxxx teases from Cory. <strong>On Fire</strong> featured Alex 'Gator' Petropolous on drums.</em></p>",
-    "last_updated_formatted": "July 18, 2025 at 04:08 PM"
+    "rating": "8.0",
+    "setlist_preview": "<h3 class=\"setlist-header\"><strong>Set 1:</strong>  Funkadelic (13), <span class=\"jam-entry jam-tooltip jam-link\" data-tooltip=\"<strong>Timing:</strong> 2:08<br><strong>Notes:</strong> A bit out of the box, with some slowdowns, and samples. \n\" data-url=\"/jam-chart/?filter=All My Friends\">All My Friends</span> (2) > <span class=\"jam-entry jam-tooltip jam-link\" data-tooltip=\"<strong>Timing:</strong> 17:31<br><strong>Notes:</strong> Dub-y and Funkadelic-y to start, slowing at a space terminal before swirling into a dancey strait with a fiery finish.\n\" data-url=\"/jam-chart/?filter=Bee Jam\">Bee Jam</span> (17) > Windmill (17), On Fire (9)</h3>\n<p class=\"chucks-dream\"><strong>Chuck's Dream:</strong> <em> Pretty</em></p>\n<h3 class=\"setlist-header\"><strong>Set 2:</strong>  <span class=\"jam-entry jam-tooltip jam-link\" data-tooltip=\"<strong>Timing:</strong> 10:46<br><strong>Notes:</strong> Mostly the usual structure, but much spacier.\n\" data-url=\"/jam-chart/?filter=Night After Night\">Night After Night</span> (10), <span class=\"jam-entry jam-tooltip jam-link\" data-tooltip=\"<strong>Timing:</strong> 21:32<br><strong>Notes:</strong> Hustles in double time before hitting a section straight from Windmill, then quickly moves through a corridor of buzzing lights and into a dense, foggy jungle -&gt; Broken Wing.\n\" data-url=\"/jam-chart/?filter=Red's Jam\">Red's Jam</span> (21) -> <strong class=\"highlighted-jam jam-tooltip jam-link\" data-tooltip=\"<strong>Timing:</strong> 23:41<br><strong>Notes:</strong> Straightforward first half that flies by, then Funkadelic-ish jamming that experiments with several combinations before opening up into an 8-bit groove that eventually swings -&gt; Walls.\" data-url=\"/jam-chart/?filter=Broken Wing\">Broken Wing</strong> (23) -> <span class=\"jam-entry jam-tooltip jam-link\" data-tooltip=\"<strong>Timing:</strong> 14:12<br><strong>Notes:</strong> A revolving carousel of a groove that builds sharply and reflects brightly. \n\" data-url=\"/jam-chart/?filter=Walls\">Walls</span> (14)</h3>\n<hr class=\"section-divider\">\n<p class=\"show-notes\"><em>This was the seventh show of the 2025 Summer Tour. <strong>Funkadelic</strong> contained a Where It's At (Beck) tease from Cory. <strong>Bee Jam</strong> contained <strong>Funkadelic</strong> teases from Brian, a Franklin's Tower tease from Cory, and Rastaman Chant teases from Shon. <strong>On Fire</strong> featured Alex 'Gator' Petropolous on drums.</em></p>",
+    "last_updated_formatted": "September 23, 2025 at 07:38 PM"
   },
   {
     "url": "/shows/2025-06-21/",

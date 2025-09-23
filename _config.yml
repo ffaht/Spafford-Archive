@@ -3,7 +3,8 @@ collections:
   setlists:
     output: true
     permalink: /shows/:name/
-description: "\U0001F600 \U0001F602 \U0001F60A \U0001F60E \U0001F61C"
+description: "\xF0\u0178\u02DC\u20AC \xF0\u0178\u02DC\u201A \xF0\u0178\u02DC\u0160\
+  \ \xF0\u0178\u02DC\u017D \xF0\u0178\u02DC\u0153"
 markdown: kramdown
 title: Spafford Show Archive
 url: https://your-username.github.io
